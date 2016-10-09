@@ -27,7 +27,7 @@ class HomeController extends Controller
 
     public function getRegistration()
     {
-        $user = new User();
+        $user = new User(); //
 
         return Response::json([
             'status' => 'success',
