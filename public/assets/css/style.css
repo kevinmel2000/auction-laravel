@@ -1,0 +1,1371 @@
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+}
+html body .logo-default {
+  height: 35px;
+  margin-top: 5px !important;
+}
+html body header {
+  min-height: 70px;
+  background-color: #2d2d2d;
+}
+html body header .container-fluid {
+  height: 100%;
+}
+html body header .container-fluid .row {
+  height: 100%;
+}
+html body header .container-fluid .row .logo {
+  height: 40px;
+  margin-top: 15px;
+}
+html body header .container-fluid .row .site-phone {
+  color: #fff;
+}
+html body header .container-fluid .row .site-phone h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 13px;
+}
+html body header .container-fluid .row .site-phone p {
+  color: #4e4e4e;
+}
+html body header .container-fluid .row .site-phone .personal-area {
+  border: 1px solid #32c5d2;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: rgba(45, 45, 45, 0.85);
+  position: relative;
+  text-align: center;
+  width: 185px;
+}
+html body header .container-fluid .row .site-phone .personal-area h4 {
+  margin-top: 0;
+}
+html body header .container-fluid .row .site-phone .personal-area .arrow {
+  background-image: url("../img/arrow_down.png");
+  height: 8px;
+  width: 9px;
+  display: inline-block;
+}
+html body header .container-fluid .row .site-phone .personal-area .drop-down-container {
+  display: none;
+}
+html body header .container-fluid .row .site-phone .personal-area.open {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+html body header .container-fluid .row .site-phone .personal-area.open .arrow {
+  transform: rotate(180deg);
+}
+html body header .container-fluid .row .site-phone .personal-area.open .drop-down-container {
+  position: absolute;
+  width: calc(100% + 1.5px);
+  margin-left: -11px;
+  z-index: 10;
+  border: 1px solid #32c5d2;
+  background-color: rgba(45, 45, 45, 0.85);
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0 10px 5px;
+  display: block;
+  text-align: left;
+}
+html body header .container-fluid .row .site-phone .personal-area.open .drop-down-container .divider {
+  border-top: 1px solid #5f5f5f;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+html body header .container-fluid .row .site-phone .personal-area.open .drop-down-container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+html body header .container-fluid .row .site-phone .personal-area.open .drop-down-container ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+html body header .container-fluid .row .site-phone .personal-area.open .drop-down-container ul li a:hover {
+  color: #32c5d2;
+  cursor: pointer;
+}
+html body header .container-fluid .row .site-phone .personal-area[class="drop-down"] {
+  height: 100px;
+}
+html body header .container-fluid .row .login-block {
+  height: 100%;
+  padding-top: 15px;
+  color: #fff;
+}
+html body header .container-fluid .row .login-block .vertical-separate {
+  border-left: 1px solid #424242;
+  height: 40px;
+}
+html body header .container-fluid .row .login-block .vertical-separate .btn-login {
+  background-color: #484848;
+  margin-top: 6.5px;
+  margin-left: calc(50% - 32.5px);
+  padding: 2.5px 13px;
+  border-radius: 13.5px;
+  width: 65px;
+}
+html body header .container-fluid .row .login-block .vertical-separate .btn-registration {
+  position: relative;
+  display: inline-block;
+  background-color: inherit;
+  padding: 12px 0;
+  margin-left: calc(50% - 42px);
+  cursor: pointer;
+}
+html body .main-nav {
+  height: 40px;
+  background-color: #3b3b3b;
+}
+html body .main-nav ul li {
+  display: inline-block;
+  font-size: 12px;
+  padding: 9px 0;
+}
+html body .main-nav ul li a {
+  color: #fff;
+  padding: 2.5px 10px;
+  border-left: 1px solid #626262;
+}
+html body .main-nav ul li a:hover {
+  background-color: #3b3b3b;
+  color: #32c5d2;
+}
+html body .main-nav ul li.active a {
+  background-color: #3b3b3b;
+  color: #32c5d2;
+}
+html body .main-nav ul li:first-child a {
+  border-left: none;
+}
+html body .carousel-text {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 40%;
+}
+html body .carousel-text img {
+  width: 100%;
+}
+html body .carousel-text p {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  max-width: calc(100% - 60px);
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+}
+html body .under-menu {
+  padding: 15px 0;
+}
+html body .under-menu img {
+  width: 100%;
+}
+html body .under-menu p {
+  position: absolute;
+  font-size: 36px;
+  color: #fff;
+}
+html body .under-menu .auction {
+  top: calc(50% - 25px);
+  left: calc(50% - 102px);
+  width: 204px;
+}
+html body .under-menu .question-answer {
+  top: calc(50% - 50px);
+  left: calc(50% - 102px);
+  width: 204px;
+}
+html body .under-menu .dota-2 {
+  top: calc(50% - 25px);
+  left: calc(50% - 110px);
+  width: 220px;
+}
+html body .auction-page {
+  background-color: #dcdcdc;
+}
+html body .auction-page .filter-header {
+  padding: 0 125px;
+}
+html body .auction-page .filter-header .turquoise {
+  margin-top: 15px;
+}
+html body .auction-page .filter-header .filter-content {
+  padding-top: 15px;
+}
+html body .auction-page .closed-header {
+  padding: 0 125px;
+}
+html body .auction-page .pagination-content {
+  min-width: 225px;
+  max-width: 300px;
+}
+html body .auction-page.game-zone .goods {
+  background-color: transparent;
+}
+html body .auction-page.game-zone > img {
+  position: absolute;
+  height: 1287px;
+  top: 110px;
+  left: 0;
+}
+html body .auction-page.game-zone .filter-header .turquoise {
+  background-color: #efda2b;
+}
+html body .my-auction {
+  background-color: #dcdcdc;
+}
+html body .my-auction .bid {
+  padding: 15px 0;
+}
+html body .my-auction .bid .turquoise {
+  width: 100%;
+}
+html body .my-auction .bid .count {
+  height: 26px;
+  background-color: #f8f8f8;
+  text-align: center;
+  border-radius: 5px;
+  margin: 4px 0;
+  line-height: 2;
+}
+html body .my-auction .bid label {
+  line-height: 2.2;
+  text-align: right;
+}
+html body .my-auction .panel-heading {
+  height: 50px;
+}
+html body .my-auction .panel-heading .panel-title {
+  line-height: 2;
+}
+html body .my-auction .panel-auction {
+  border: 1px solid #b8b8b8;
+  border-radius: 10px;
+}
+html body .my-auction .panel-auction .panel-heading {
+  background-color: #dcdcdc;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+html body .my-auction .panel-auction .panel-heading .panel-title {
+  color: #fff;
+  font-weight: bold;
+}
+html body .my-auction .panel-auction .panel-heading i {
+  float: right;
+  font-size: 26px;
+  padding: 8px;
+  margin-left: 5px;
+  color: #fff;
+}
+html body .my-auction .panel-auction .panel-heading i.active {
+  background-color: #bbb;
+}
+html body .my-auction .panel-auction .panel-body > .row:first-child {
+  border-bottom: 1px solid #d0d0d0;
+}
+html body .my-auction .panel-auction .panel-body > .row:first-child [class^="col-md"] {
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+  text-align: center;
+}
+html body .my-auction .panel-auction .panel-body > .row:first-child [class^="col-md"]:first-child {
+  border-left: none;
+}
+html body .my-auction .panel-auction .panel-body > .row:first-child [class^="col-md"]:last-child {
+  border-right: none;
+}
+html body .my-auction .panel-auction .panel-body > .row:last-child > [class^="col-md"] {
+  padding: 15px 20px 0;
+}
+html body .my-auction .panel-auction .panel-body > .row:last-child > [class^="col-md"] > .row {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  height: 50px;
+}
+html body .my-auction .panel-auction .panel-body > .row:last-child > [class^="col-md"] > .row label:first-child {
+  line-height: 3.5;
+  margin-bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+html body .my-auction .panel-auction .panel-body > .row:last-child > [class^="col-md"] > .row .auction-start-timer,
+html body .my-auction .panel-auction .panel-body > .row:last-child > [class^="col-md"] > .row .price {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 10px 0;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.9;
+  font-size: 16px;
+  background-color: #fafafa;
+}
+html body .my-auction .panel-recommend {
+  border: 1px solid #3eb5f1;
+  border-radius: 10px;
+}
+html body .my-auction .panel-recommend .panel-heading {
+  background-color: #3eb5f1;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  height: 50px;
+}
+html body .my-auction .panel-recommend .panel-heading .panel-title {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+html body .my-auction .panel-recommend .panel-body {
+  background-color: #fafafa;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item {
+  height: 340px;
+  width: 220px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item > a {
+  color: #000;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-photo {
+  height: 200px;
+  display: block;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-photo .header {
+  height: 30px;
+  width: 100%;
+  display: block;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-photo .header p {
+  font-size: 10px;
+  margin-bottom: 0;
+  height: 100%;
+  padding: 10px 11px;
+  width: 150px;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-photo .header .basket {
+  height: 18px;
+  width: 18px;
+  font-size: 18px;
+  color: #ddd;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-photo .body {
+  height: 170px;
+  display: block;
+  width: 100%;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-photo .body img {
+  height: 170px;
+  margin: 0 47px;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info {
+  height: 140px;
+  display: block;
+  background-color: #e7e7e7;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .price {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .price span {
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .sand {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .sand > span {
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 9px 10px 5px;
+  font-size: 12px;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .sand > span span {
+  height: 18px;
+  width: 18px;
+  font-size: 18px;
+  margin: 5px 10px 0 -5px;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .sand > span div {
+  display: inline-block;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .text {
+  height: 30px;
+  padding: 8px;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .turquoise,
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .dim-gray {
+  width: 100%;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info .finished {
+  background-color: #d2d2d2;
+  height: 38px;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 2.5;
+}
+html body .my-auction .panel-recommend .panel-body .goods-item .goods-info div.bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+html body .goods {
+  background-color: #dcdcdc;
+  height: 380px;
+}
+html body .goods .goods-container {
+  margin: 20px 125px 0;
+}
+html body .goods .goods-container .goods-item {
+  height: 340px;
+  width: 220px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 35px;
+  margin-bottom: 20px;
+}
+html body .goods .goods-container .goods-item > a {
+  color: #000;
+}
+html body .goods .goods-container .goods-item .goods-photo {
+  height: 200px;
+  display: block;
+}
+html body .goods .goods-container .goods-item .goods-photo .header {
+  height: 30px;
+  width: 100%;
+  display: block;
+}
+html body .goods .goods-container .goods-item .goods-photo .header p {
+  font-size: 10px;
+  margin-bottom: 0;
+  height: 100%;
+  padding: 10px 11px;
+  width: 150px;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+html body .goods .goods-container .goods-item .goods-photo .header .basket {
+  height: 18px;
+  width: 18px;
+  font-size: 18px;
+  color: #ddd;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+html body .goods .goods-container .goods-item .goods-photo .body {
+  height: 170px;
+  display: block;
+  width: 100%;
+}
+html body .goods .goods-container .goods-item .goods-photo .body img {
+  height: 170px;
+  margin: 0 47px;
+}
+html body .goods .goods-container .goods-item .goods-info {
+  height: 140px;
+  display: block;
+  background-color: #e7e7e7;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+}
+html body .goods .goods-container .goods-item .goods-info .price {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0;
+}
+html body .goods .goods-container .goods-item .goods-info .price span {
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+html body .goods .goods-container .goods-item .goods-info .sand {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0;
+}
+html body .goods .goods-container .goods-item .goods-info .sand > span {
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 9px 10px 5px;
+  font-size: 12px;
+}
+html body .goods .goods-container .goods-item .goods-info .sand > span span {
+  height: 18px;
+  width: 18px;
+  font-size: 18px;
+  margin: 5px 10px 0 -5px;
+}
+html body .goods .goods-container .goods-item .goods-info .sand > span div {
+  display: inline-block;
+}
+html body .goods .goods-container .goods-item .goods-info .text {
+  height: 30px;
+  padding: 8px;
+}
+html body .goods .goods-container .goods-item .goods-info .turquoise,
+html body .goods .goods-container .goods-item .goods-info .dim-gray {
+  width: 100%;
+}
+html body .goods .goods-container .goods-item .goods-info .finished {
+  background-color: #d2d2d2;
+  height: 38px;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 2.5;
+}
+html body .goods .goods-container .goods-item .goods-info div.bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+html body .product-page {
+  background-color: #fafafa;
+}
+html body .product-page .slider {
+  width: 100px;
+  margin: 0 auto;
+}
+html body .product-page .slider img {
+  height: 100px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+html body .product-page .slider .fa {
+  font-size: 40px;
+  color: #32C5D2;
+  font-weight: bold;
+  margin-left: 27px;
+}
+html body .product-page .slider .slick-list {
+  margin-bottom: 10px;
+}
+html body .product-page .slider-viewer img {
+  height: 500px;
+}
+html body .product-page .sk-circle {
+  height: 80px;
+  width: 80px;
+  margin: 210px auto;
+}
+html body .product-page .sk-circle .sk-child:before {
+  background-color: #000 !important;
+}
+html body .product-page .buy-bid {
+  padding: 10px 0;
+}
+html body .product-page .buy-bid button {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+html body .product-page .term-header,
+html body .product-page .term-item {
+  margin-bottom: 10px;
+}
+html body .product-page .term-header .term-icon,
+html body .product-page .term-item .term-icon {
+  margin-right: 10px;
+}
+html body .product-page .term-header p,
+html body .product-page .term-item p {
+  font-size: 16px;
+}
+html body .product-page .auction {
+  background-color: #7d7d7d;
+  border-radius: 10px;
+  height: 500px;
+}
+html body .product-page .auction .soon-start {
+  padding-top: 50px;
+}
+html body .product-page .auction .soon-start h2 {
+  color: #45B6AF;
+  text-align: center;
+  margin-bottom: 50px;
+}
+html body .product-page .auction .soon-start .auction-start-timer {
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 10px;
+  height: 55px;
+  background-color: #d7e8ea;
+  text-align: center;
+  margin-bottom: 125px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+  box-shadow: inset 10px 10px 10px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+}
+html body .product-page .auction .soon-start button {
+  font-size: 25px;
+  width: 80%;
+  border-radius: 10px;
+}
+html body .product-page .auction .auction-process {
+  padding: 5px 0;
+}
+html body .product-page .auction .auction-process .current-price {
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 8px 25px;
+}
+html body .product-page .auction .auction-process .current-price label {
+  font-size: 16px;
+  display: block;
+}
+html body .product-page .auction .auction-process .current-price span {
+  color: #45B6AF;
+  font-size: 24px;
+}
+html body .product-page .auction .auction-process .auction-timer {
+  position: relative;
+  min-height: 95px;
+}
+html body .product-page .auction .auction-process .auction-timer .text {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  text-align: center;
+  font-size: 18px;
+  color: #45B6AF;
+  font-weight: 600;
+  line-height: 2.25;
+}
+html body .product-page .auction .auction-process .turquoise {
+  font-size: 20px;
+  width: calc(100% - 15px);
+  margin-left: 15px;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+html body .product-page .auction .auction-process .auction-type {
+  width: calc(100% - 15px);
+  background-color: #fafafa;
+  border-radius: 10px;
+  margin-right: 15px;
+  padding: 5px;
+}
+html body .product-page .auction .auction-process .auction-type label {
+  margin-bottom: 0;
+}
+html body .product-page .auction .auction-process .current-winner {
+  width: 100%;
+  background-color: #c8c8c8;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+html body .product-page .auction .auction-process .current-winner span {
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+html body .product-page .auction .auction-process .auction-history {
+  width: 100%;
+  background-color: #c8c8c8;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  height: 220px;
+  overflow-y: auto;
+}
+html body .product-page .auction .auction-process .auction-history table {
+  width: 100%;
+}
+html body .product-page .auction .auction-process .auction-history table td {
+  width: 33%;
+  text-align: center;
+  font-size: 16px;
+}
+html body .product-page .auction .auction-process .auction-history table td:last-child {
+  text-align: right;
+}
+html body .product-page .auction .auction-process .auction-history table td:first-child {
+  text-align: left;
+}
+html body .product-page .auction .auction-process [type="checkbox"]:not(:checked),
+html body .product-page .auction .auction-process [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+html body .product-page .auction .auction-process [type="checkbox"]:not(:checked) + label,
+html body .product-page .auction .auction-process [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+html body .product-page .auction .auction-process [type="checkbox"]:not(:checked) + label:before,
+html body .product-page .auction .auction-process [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #c2c2c2;
+  background: #c2c2c2;
+  border-radius: 3px;
+}
+html body .product-page .auction .auction-process [type="checkbox"]:not(:checked) + label:after,
+html body .product-page .auction .auction-process [type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #45B6AF;
+  transition: all .2s;
+}
+html body .product-page .auction .auction-process [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+html body .product-page .auction .auction-process [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+html body .product-page .auction .auction-process [type="checkbox"]:disabled:not(:checked) + label:before,
+html body .product-page .auction .auction-process [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+html body .product-page .auction .auction-process [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+html body .product-page .auction .auction-process [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+html body .product-page .auction .auction-process [type="checkbox"]:checked:focus + label:before,
+html body .product-page .auction .auction-process [type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+}
+html body .product-page .auction .auction-process label:hover:before {
+  border: 1px solid #45B6AF !important;
+}
+html body .product-page .auction .auction-finished {
+  padding-top: 75px;
+}
+html body .product-page .auction .auction-finished .finished-date {
+  width: 100%;
+  background-color: #e8e8e8;
+  color: #45B6AF;
+}
+html body .product-page .auction .auction-finished .finished-date h3 {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+html body .product-page .auction .auction-finished .finished-date h3:first-child {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+html body .product-page .auction .auction-finished .finished-date h3:last-child {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+html body .product-page .auction .auction-finished .current-winner {
+  width: 100%;
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 75px;
+}
+html body .product-page .auction .auction-finished .current-winner span {
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+html body .product-page .auction .auction-finished .current-winner span:last-child {
+  color: #45B6AF;
+}
+html body footer {
+  min-height: 120px;
+  background-color: #2d2d2d;
+  position: relative;
+}
+html body footer .container-fluid {
+  height: 100%;
+}
+html body footer .container-fluid .row {
+  height: 100%;
+  color: #fff;
+}
+html body footer .container-fluid .row .logo {
+  height: 50px;
+  margin-top: 35px;
+}
+html body footer .container-fluid .row div {
+  height: 100%;
+}
+html body footer .container-fluid .row div .vertical-separate {
+  border-left: 1px solid #424242;
+  padding-top: 10px;
+  min-height: 120px;
+  height: 100%;
+}
+html body footer .container-fluid .row div .vertical-separate .list-group {
+  margin-bottom: 0;
+}
+html body footer .container-fluid .row div .vertical-separate .list-group li {
+  list-style: none;
+}
+html body footer .container-fluid .row div .vertical-separate .list-group li a {
+  text-decoration: none;
+  color: #fff;
+}
+html body footer .container-fluid .row div .vertical-separate .left-link-group {
+  padding-left: calc(50% - 50px);
+}
+html body footer .container-fluid .row div .vertical-separate .middle-link-group {
+  padding-left: calc(50% - 120px);
+}
+html body footer .container-fluid .row div .vertical-separate .right-link-group {
+  padding-left: calc(50% - 70px);
+}
+html body footer .container-fluid .row div .vertical-separate:last-child {
+  border-right: 1px solid #424242;
+}
+html body footer .container-fluid .row .site_phone {
+  padding-top: 30px;
+}
+html body .sk-circle {
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+html body .sk-circle .sk-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+html body .sk-circle .sk-child:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: 15%;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+  animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+}
+html body .sk-circle .sk-circle2 {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+html body .sk-circle .sk-circle2:before {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+html body .sk-circle .sk-circle3 {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+html body .sk-circle .sk-circle3:before {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+html body .sk-circle .sk-circle4 {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+html body .sk-circle .sk-circle4:before {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+html body .sk-circle .sk-circle5 {
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+html body .sk-circle .sk-circle5:before {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+html body .sk-circle .sk-circle6 {
+  -webkit-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  transform: rotate(150deg);
+}
+html body .sk-circle .sk-circle6:before {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+html body .sk-circle .sk-circle7 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+html body .sk-circle .sk-circle7:before {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+}
+html body .sk-circle .sk-circle8 {
+  -webkit-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  transform: rotate(210deg);
+}
+html body .sk-circle .sk-circle8:before {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+html body .sk-circle .sk-circle9 {
+  -webkit-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  transform: rotate(240deg);
+}
+html body .sk-circle .sk-circle9:before {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s;
+}
+html body .sk-circle .sk-circle10 {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+html body .sk-circle .sk-circle10:before {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+html body .sk-circle .sk-circle11 {
+  -webkit-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  transform: rotate(300deg);
+}
+html body .sk-circle .sk-circle11:before {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+}
+html body .sk-circle .sk-circle12 {
+  -webkit-transform: rotate(330deg);
+  -ms-transform: rotate(330deg);
+  transform: rotate(330deg);
+}
+html body .sk-circle .sk-circle12:before {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+@-webkit-keyframes sk-circleBounceDelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes sk-circleBounceDelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+html body .registration-modal .modal-header {
+  background-color: #3b3b3b !important;
+}
+html body .registration-modal .modal-header .bootstrap-dialog-header {
+  text-align: center;
+}
+html body .registration-modal .modal-header .bootstrap-dialog-header .bootstrap-dialog-title {
+  color: #fff !important;
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message label {
+  font-weight: normal;
+  color: #888;
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message input.form-control[type="text"],
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message input.form-control[type="password"] {
+  background-color: #fafafa;
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message .checkbox label {
+  font-size: 12px;
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message .remember {
+  margin-top: 0;
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message .vk-link {
+  font-size: 12px;
+  cursor: pointer;
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message .vk-link img {
+  height: 30px;
+  width: 30px;
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message .forgot-password {
+  margin-bottom: 10px;
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message button.registration[type="submit"] {
+  margin-left: calc(50% - 79px);
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message button[type="submit"] {
+  border-radius: 17px;
+  color: #fff;
+  background-color: #32c5d2;
+}
+html body .registration-modal .modal-body .bootstrap-dialog-body .bootstrap-dialog-message .login-bg {
+  width: 100%;
+}
+html body .help-block {
+  font-size: 12px;
+}
+html body .btn-auction {
+  border-radius: 17px;
+  color: #fff;
+  background-color: #32c5d2;
+}
+html body .bet-info {
+  padding: 15px 0 20px;
+}
+html body .profile .panel-default {
+  border-color: #c5c5c5;
+}
+html body .profile .panel-default .panel-heading {
+  background-color: #dcdcdc;
+  border-color: #c5c5c5;
+  color: #fff;
+}
+html body .profile .profile-label {
+  font-size: 12px;
+  text-align: center;
+}
+html body .profile .profile-label span {
+  display: block;
+  font-weight: 100;
+  font-size: 10px;
+}
+html body .profile .form-control {
+  border-radius: 15px;
+  text-align: center;
+}
+html body .profile .gender-select button,
+html body .profile .country-select button {
+  border-radius: 17px;
+  min-width: 150px;
+  height: 30px;
+  padding-right: 4px;
+}
+html body .profile .gender-select button i,
+html body .profile .country-select button i {
+  font-size: 25px;
+  line-height: 0.65;
+}
+html body .profile .gender-select .dropdown-menu,
+html body .profile .country-select .dropdown-menu {
+  min-width: 150px;
+  padding: 5px 10px;
+}
+html body .profile .gender-select .dropdown-menu li:hover,
+html body .profile .country-select .dropdown-menu li:hover {
+  background-color: #32c5d2;
+  color: #fff;
+  cursor: pointer;
+}
+html body .profile .country-select button {
+  min-width: 250px;
+}
+html body .profile .country-select .dropdown-menu {
+  height: 200px;
+  overflow-y: scroll;
+  min-width: 250px;
+}
+html body .profile .gender-select.open i.fa-chevron-circle-down:before,
+html body .profile .country-select.open i.fa-chevron-circle-down:before {
+  content: "\f139";
+}
+html body .profile .avatar-panel .panel-body img {
+  height: 90px;
+}
+html body .profile .avatar-panel .panel-body .btn-group {
+  margin-left: calc(50% - 92.5px);
+  margin-bottom: 10px;
+}
+html body .profile .avatar-panel .panel-body .btn-group button {
+  background-color: #454242;
+  color: #fff;
+  border-radius: 17px;
+  font-size: 12px;
+}
+html body .profile .avatar-panel .panel-body .btn-group button:first-child {
+  border-right: 1px solid #fff !important;
+}
+html body .profile .avatar-panel .panel-body .btn-group button:last-child {
+  border-left: 1px solid #fff !important;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+html body .profile .avatar-panel .panel-body .btn-group .btn-default:hover {
+  background-color: rgba(69, 66, 66, 0.5);
+}
+html body .profile .avatar-panel .panel-body .delete-photo {
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #919191;
+}
+html body .profile .vk-profile .vk-search .vk-search-label {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+html body .profile .list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+html body .profile .notification {
+  padding-left: 10px;
+}
+html body .profile .notification .form-group {
+  margin-bottom: 7.5px;
+}
+html body .profile .notification .notification-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+html body .profile .notification .notification-item .check-box {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-right: -20px;
+  cursor: pointer;
+}
+html body .profile .notification .notification-item .check-box.active {
+  position: relative;
+  overflow: hidden;
+}
+html body .profile .notification .notification-item .check-box.active::after,
+html body .profile .notification .notification-item .check-box.active::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 70%;
+  top: 50%;
+  left: 16%;
+  margin-top: -1px;
+  background: #48c9d5;
+  transform: rotate(45deg);
+}
+html body .profile .notification .notification-item .check-box.active::after {
+  transform: rotate(-45deg);
+}
+html body .profile .notification .notification-item .check-box.active::before {
+  transform: rotate(45deg);
+}
+html body .upload .progress {
+  margin-bottom: 0;
+  position: relative;
+}
+html body .upload .progress span {
+  text-align: center;
+  color: #666;
+  height: 20px;
+  padding: 2px;
+}
+html body .table-header {
+  margin-bottom: 10px;
+}
+html body table.table tbody tr td {
+  vertical-align: middle;
+}
+html body .image-container {
+  padding: 0 15px 10px;
+  overflow-x: scroll;
+}
+html body .image-container .item {
+  border: 1px solid #000;
+  border-radius: 5px !important;
+  margin-right: 10px;
+  height: 150px;
+  width: 150px;
+}
+html body .image-container .item .canvas {
+  margin-top: 1px;
+  text-align: center;
+}
+html body .image-container .item #add_photo {
+  font-size: 48px;
+  line-height: normal;
+  margin-top: calc(50% - 24px);
+  margin-left: calc(50% - 20px);
+  color: #5cb85c;
+  cursor: pointer;
+}
+html body .image-container .item #add_photo:hover {
+  color: #449d44;
+}
+html body .image-container .item .glyphicon {
+  position: absolute;
+  z-index: 1000;
+  right: 3px;
+  top: 3px;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  background-color: rgba(221, 221, 221, 0.65);
+}
+html body .image-container .item .glyphicon:hover {
+  background-color: rgba(255, 0, 0, 0.65);
+  cursor: pointer;
+}
+html body .image-container .item .glyphicon::content {
+  height: 100%;
+}
+html body .image-container .item .glyphicon:before {
+  vertical-align: -webkit-baseline-middle;
+}
+html body .gridly,
+html body .gridly > :not(.dragging) {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+html body .gridly .dragging {
+  z-index: 800;
+}
+html body .gridly {
+  position: relative;
+}
+.bets-wrapper {
+  margin-top: 20px;
+}
+.bets-wrapper .panel {
+  border-radius: 6px !important;
+}
+.bets-wrapper .panel .panel-heading {
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+  background-color: #dbdbdb;
+}
+.bets-wrapper .bet-item {
+  position: relative;
+  display: block;
+  width: 150px;
+  margin: 10px auto;
+}
+.bets-wrapper .bet-item .img-thumbnail {
+  padding: 4px 33px;
+}
+.bets-wrapper .figure-caption {
+  padding: 5px 0;
+}
+.bets-wrapper .figure-caption label {
+  padding-left: 22px;
+  font-size: 10px;
+}
+.bets-wrapper .figure-caption .md-radio label > .box {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #E1E1E1;
+}
+.bets-wrapper .figure-caption .md-radio label > .check {
+  top: 6px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+  background: #32C4D1;
+}
+.bets-wrapper .pm-img-thumbnail {
+  height: 40px;
+}
+.bets-wrapper .pm-img-thumbnail img {
+  margin: 0 auto;
+}
+.bets-wrapper .list-inline {
+  margin-bottom: 20px;
+}
+.bets-wrapper .list-inline > li {
+  padding: 0 15px;
+}
+.bets-wrapper .badge-bet {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+  line-height: 40px;
+  text-align: center;
+}
+.bets-wrapper .badge-bet span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
